@@ -1,0 +1,69 @@
+0201
+void main() 
+{ 
+  List<int> lst=[10,20,30];
+  print(lst);
+  lst.insert(0,5);
+  print(lst);
+}
+output:
+[10, 20, 30]
+[5, 10, 20, 30]
+--------------------------------------------------------------
+0202
+void main() 
+{ 
+  List<int> lst=[10,20,30];
+  print(lst);
+  lst.removeRange(0,3);
+  print(lst);
+}
+output:
+[10, 20, 30]
+[]
+--------------------------------------------------------------
+0204
+void main() 
+{ 
+  List<int> lst=[10,20,30];
+  List<int> reversedNumbers=lst.reversed.toList();
+  print(reversedNumbers);
+}
+output:
+[30, 20, 10]
+------------------------------------------------------------
+0205
+
+void main() 
+{ 
+  List<int> lst=[1, 2, 3, 4];
+  print(lst);
+  lst.insertAll(4,[5, 6, 7]);
+  print(lst);
+}
+output:
+[1, 2, 3, 4]
+[1, 2, 3, 4, 5, 6, 7]
+------------------------------------------------------------
+1206
+void main() 
+{ 
+  List<int> lst=[1, 2, 3, 4];
+  print(lst);
+  print(lst.length);
+}
+output:
+[1, 2, 3, 4]
+4
+---------------------------------------------------------
+0207
+void main() 
+{ 
+  List<int> lst=[1, 2, 3, 4];
+  print(lst);
+  lst.removeLast();
+  print(lst);
+}
+output:
+[1, 2, 3, 4]
+[1, 2, 3]
