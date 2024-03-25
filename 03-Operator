@@ -1,0 +1,309 @@
+1301
+
+void main()
+{
+  int a=56;
+  int b=80;
+  print("Addition = ${a+b}");
+  print("Substraction = ${a-b}");
+  print("Multiplicatin = ${a*b}");
+  print("Devision = ${a/b}");
+  print("Modulo = ${b%a}");
+}
+output:
+ Addition: 136
+ Subtraction: -24
+ Multiplication: 4480
+ Division: 0.7
+ Module: 24
+
+--------------------------------------
+1302
+
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x<=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x<y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x>y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+false
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x>=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output;
+false
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x==y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output
+false
+void main()
+{
+  int x=12;
+  int y=20;
+  if(x!=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+---------------------------------------------------------------
+0303
+
+void main()
+{
+  int a=52;
+  int b=45;
+  a+=b;
+  print("add and assign : ${a}");
+  a-=b;
+  print("substract and assign : ${a}");
+  a*=b;
+  print("Multiplication and assign : ${a}");
+  a~/=b;
+  print("Devision and assign : ${a}");
+  a%=b;
+  print("modulo and assign : ${a}");
+ }
+output:
+add and assign : 97
+substract and assign : 52
+Multiplication and assign : 2340
+Devision and assign : 52
+modulo and assign : 7
+------------------------------------------------------------
+0304
+
+void main()
+{
+  int a=99;
+  int b=12;
+  int c;
+  c=a+b;
+  print("Add:value of c is ${c}");
+  c=a-b;
+  print("Sub:value of c is ${c}");
+  c=a*b;
+  print("Mul:value of c is ${c}");
+  c=a~/b;
+  print("Div:value of c is ${c}");
+  c=a%b;
+  print("Mod:value of c is ${c}");
+}
+output:
+Add:value of c is 111
+Sub:value of c is 87
+Mul:value of c is 1188
+Div:value of c is 8
+Mod:value of c is 3
+------------------------------------------------------------
+0305
+
+void main()
+{
+  int a=25;
+  int b=8;
+  a+=b;
+  print("add and assign : ${a}");
+  a-=b;
+  print("substract and assign : ${a}");
+  a*=b;
+  print("Multiplication and assign : ${a}");
+  a%=b;
+  print("modulo and assign : ${a}");
+ }
+output:
+add and assign : 33
+substract and assign : 17
+Multiplication and assign : 200
+modulo and assign : 1
+----------------------------------------------
+0306
+
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x<=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x>=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+false
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x<y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x<=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x==y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+false
+void main()
+{
+  int x=22;
+  int y=39;
+  if(x!=y)
+  {
+    print("true");
+  }
+  else
+  {
+    print("false");
+  }
+}
+output:
+true
+----------------------------------------------------------
+0306
+
+void main()
+{
+  int number1=10;
+  int number2=20;
+  int temp;
+  temp=number1;
+  number1=number2;
+  number2=temp;
+ print("number1 ${number1}");
+   print("number2 ${number2}");
+}
+output:
+number1 20
+number2 10
+--------------------------------------------------------------
+0307
+
+void main()
+{
+  int number1=10;
+  int number2=20;
+ number1=number1+number2;
+  number2=number1-number2;
+  number1=number1-number2;
+  print("number1=$number1");
+  print("number2=$number2");
+}
+output:
+number1=20
+number2=10
+
