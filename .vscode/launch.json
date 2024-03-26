@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "20-textfield",
+            "cwd": "20-textfield",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "20-textfield (profile mode)",
+            "cwd": "20-textfield",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "20-textfield (release mode)",
+            "cwd": "20-textfield",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
